@@ -40,6 +40,10 @@ a {
 ul li {
     list-style: none;
 }
+
+label {
+    user-select: none;
+}
 /* ==============================Header==================================*/
 .header {
     height: 100vh;
@@ -273,4 +277,129 @@ ul li {
     font-weight: 500;
     margin-left: 24px;
     text-decoration: underline;
+}
+
+/* ===============================Agency==================================*/
+
+.best-agency {
+    padding-top: 77px;
+    padding-bottom: 53px;
+    background-color: #fff2e5;
+}
+
+.agency-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agency-left {
+}
+
+.agency__title {
+    position: relative;
+    width: 446px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19; /* 119.231% */
+}
+
+.agency__title::before {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    content: "//  About  //";
+    display: block;
+    color: #5e6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.agency__desc {
+    width: 431px;
+    color: #656689;
+    margin-top: 24px;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87; /* 187.5% */
+}
+
+.agency__all--row-1,
+.agency__all--row-2 {
+    display: flex;
+    gap: 36px;
+}
+
+.agency__all--row-1 {
+    margin-top: 54px;
+}
+
+.agency__all--row-2 {
+    margin-top: 34px;
+}
+
+.agency__row-1 {
+    position: relative;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    color: #48496a;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.check-box::before,
+.check-box::after {
+    content: "";
+    display: inline-block;
+}
+
+.check-box::before {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color ease-out 0.25s;
+}
+
+.check-box::after {
+    transition: border ease-out 0.25s;
+}
+
+.agency-all-row input[type="checkbox"]:checked ~ .check-box::before {
+    background-color: #ff5b2e;
+}
+
+.agency-all-row input[type="checkbox"]:checked ~ .check-box::after {
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    width: 12px;
+    height: 8px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    rotate: -45deg;
+}
+
+.agency-right {
+    width: 640px;
+}
+
+.agency__img {
+    min-width: 100%;
+    width: 450px;
+    height: 602px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
 }
