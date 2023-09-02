@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+input,
+button,
+select,
+textarea {
+    font-size: inherit;
+}
+
+/* ==============================COMMON==================================*/
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+/* ==============================Header==================================*/
