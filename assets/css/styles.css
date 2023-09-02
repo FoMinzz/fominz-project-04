@@ -14,6 +14,8 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-family: "Sora", sans-serif;
 }
 
 input,
@@ -39,3 +41,41 @@ ul li {
     list-style: none;
 }
 /* ==============================Header==================================*/
+.header {
+    height: 100vh;
+    padding-top: 26px;
+    background: #fff2e5;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    gap: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu__list a {
+    color: #5e6085;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.menu__list a:hover {
+    color: #000958;
+}
+
+.menu__signup {
+    color: #000958;
+    font-family: Poppins;
+    padding: 18px 32px;
+    border-radius: 25px;
+    border: 1px solid #000958;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
