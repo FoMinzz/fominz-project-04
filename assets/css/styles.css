@@ -228,7 +228,7 @@ label {
 
 .hero__title {
     width: 517px;
-    color: #000958;
+    color: var(--primary-color-tile);
     font-family: Sora;
     font-size: 6.6rem;
     font-weight: 800;
@@ -237,7 +237,7 @@ label {
 
 .hero__desc {
     width: 391px;
-    color: #656689;
+    color: var(--primary-color-desc);
     font-family: Poppins;
     font-size: 1.6rem;
     font-weight: 400;
@@ -320,7 +320,7 @@ label {
 
 .agency__desc {
     width: 431px;
-    color: #656689;
+    color: var(--primary-color-desc);
     margin-top: 24px;
     font-family: Poppins;
     font-size: 1.6rem;
@@ -402,4 +402,85 @@ label {
     object-fit: cover;
     border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+}
+
+/* ===============================Agency==================================*/
+
+.vacation--all {
+    padding-top: 77px;
+    background-color: #fffaf5;
+}
+
+.vacation {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding: 16px 0 55px 0;
+}
+
+.vacation__img {
+    min-width: 100%;
+    width: 458px;
+    height: 500px;
+    border-radius: 18px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+}
+
+.vacation__title {
+    width: 543px;
+    color: var(--primary-color-tile);
+    font-family: Sora;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19; /* 119.231% */
+}
+
+.vacation__desc {
+    width: 511px;
+    color: var(--primary-color-desc);
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87; /* 187.5% */
+    margin-top: 24px;
+}
+
+.vacation__row {
+    display: flex;
+    gap: 56px;
+    border-bottom: 2px solid #ff5b2e;
+}
+
+.row--row {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+    color: #48496a;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.vacation__about {
+    margin-top: 36px;
+}
+
+.vacation__about__desc {
+    width: 391px;
+    color: var(--primary-color-desc);
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    line-height: 1.71; /* 171.429% */
+}
+
+.vacation__links {
+    color: #ff5d31;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: underline;
 }
