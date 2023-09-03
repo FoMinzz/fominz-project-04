@@ -293,9 +293,6 @@ label {
     align-items: center;
 }
 
-.agency-left {
-}
-
 .agency__title {
     position: relative;
     width: 446px;
@@ -763,9 +760,6 @@ label {
     cursor: pointer;
 }
 
-.slide__check:hover {
-}
-
 .slide__check::after {
     position: absolute;
     left: 1px;
@@ -896,4 +890,92 @@ label {
     font-family: Poppins;
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+/* ===============================OUR REVIEWS==================================*/
+
+.reviews-all {
+    padding: 32px 0;
+    background: #fffaf5;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-left-content {
+    display: flex;
+    align-items: center;
+}
+
+.review__btn--left {
+    color: #ff5b2e;
+    padding: 21px 20px;
+    border: 1px solid #ffd1c4;
+    border-radius: 50%;
+}
+
+.review__btn--left:hover {
+    color: #fff;
+    background-color: #ff5b2e;
+}
+
+.reviews__img {
+    width: 338px;
+    height: 507px;
+    object-fit: cover;
+    margin-left: 28px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+}
+
+.reviews-right__content {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-right__content-1 {
+    margin-left: 67px;
+    margin-right: 76px;
+}
+
+.reviews-right__title {
+    color: var(--primary-color-tile);
+    font-family: Sora;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19; /* 119.231% */
+}
+
+.reviews-right__desc {
+    width: 553px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 1.56; /* 155.556% */
+}
+
+.reviews__rows {
+    display: flex;
+    align-items: center;
+}
+
+.rows--gach {
+    width: 20px;
+    height: 2px;
+    margin-top: 34px;
+    background-color: #000;
+}
+
+.reviews__name {
+    color: #282828;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-left: 8px;
 }
